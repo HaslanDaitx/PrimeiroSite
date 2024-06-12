@@ -1,0 +1,76 @@
+nav {
+    background-color: #0e2582;
+    margin-top: -20px;
+}
+footer {
+    background-color: #0e2582;
+}
+
+header {
+    background-image: url('Imagens/Outros/Header1.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto;
+}
+
+body {
+    background-image: url('Imagens/Outros/Fundo.jpg');
+}
+
+.carousel-inner {
+    margin-top: 210px;
+}
+
+.carousel-img {
+    height: auto;
+    max-height: 500px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.carousel-item video {
+    height: auto;
+    width: 100%;
+    margin-top: 35px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+}
+
+.dropdown-menu .dropdown-item {
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 2rem;
+    }
+
+    nav {
+        top: 100px;
+    }
+
+    .carousel-inner {
+        margin-top: 150px;
+    }
+}
+@media (max-width: 700px) {
+    .carousel-img {
+        height: auto;
+        max-height: 500px;
+        width: 100%;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+}

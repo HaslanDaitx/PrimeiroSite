@@ -1,0 +1,50 @@
+nav {
+    background-color: #0e2582;
+    margin-top: -20px;
+}
+
+footer {
+    background-color: #0e2582;
+}
+
+header {
+    background-image: url('Imagens/Outros/Header1.png');
+}
+
+body {
+    background-image: url('/Imagens/Outros/Fundo.jpg');
+}
+
+main {
+    margin-top: 220px;
+}
+
+p {
+    margin: 20px;
+}
+
+form {
+    margin-top: 600px;
+}
+
+.dropdown-menu .dropdown-item {
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.carousel-item img {
+    height: 330px;
+    border-radius: 2%;
+
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black;
+    border-radius: 50%;
+    width: 1rem;
+    height: 1rem;
+}

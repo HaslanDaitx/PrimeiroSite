@@ -1,0 +1,34 @@
+nav{
+    background-color: #0e2582;
+    margin-top: -20px;
+}
+footer {
+    background-color: #0e2582;
+}
+header{
+    background-image: url('/Imagens/Outros/Header1.png');
+}
+body{
+    background-image: url('/Imagens/Outros/Fundo.jpg');
+}
+main{
+    margin-top: 255px;
+
+}
+.dropdown-menu .dropdown-item {
+    transition: background-color 0.3s ease;
+  }
+
+  .dropdown-menu .dropdown-item:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+.modal-content{
+    background-image: url('/Imagens/Outros/Fundo.jpg');
+}
+button{
+    color: #0e2582;
+} 
+form{
+    margin-bottom: 20px;
+}
