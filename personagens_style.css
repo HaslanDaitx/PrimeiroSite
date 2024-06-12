@@ -8,11 +8,11 @@ footer {
 }
 
 header {
-    background-image: url('Imagens/Outros/Header1.png');
+    background-image: url('/PrimeiroSite/Imagens/Outros/Header1.png');
 }
 
 body {
-    background-image: url('/Imagens/Outros/Fundo.jpg');
+    background-image: url('/PrimeiroSite/Imagens/Outros/Fundo.jpg');
 }
 
 main {

@@ -6,10 +6,10 @@ footer {
     background-color: #0e2582;
 }
 header{
-    background-image: url('/Imagens/Outros/Header1.png');
+    background-image: url('/PrimeiroSite/Imagens/Outros/Header1.png');
 }
 body{
-    background-image: url('/Imagens/Outros/Fundo.jpg');
+    background-image: url('/PrimeiroSite/Imagens/Outros/Fundo.jpg');
 }
 main{
     margin-top: 255px;
@@ -19,12 +19,12 @@ main{
     transition: background-color 0.3s ease;
   }
 
-  .dropdown-menu .dropdown-item:hover {
+.dropdown-menu .dropdown-item:hover {
     background-color: #007bff;
     color: #fff;
 }
 .modal-content{
-    background-image: url('/Imagens/Outros/Fundo.jpg');
+    background-image: url('/PrimeiroSite/Imagens/Outros/Fundo.jpg');
 }
 button{
     color: #0e2582;

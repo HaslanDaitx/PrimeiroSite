@@ -7,7 +7,7 @@ footer {
 }
 
 header {
-    background-image: url('Imagens/Outros/Header1.png');
+    background-image: url('/PrimeiroSite/Imagens/Outros/Header1.png');
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -15,7 +15,7 @@ header {
 }
 
 body {
-    background-image: url('Imagens/Outros/Fundo.jpg');
+    background-image: url('/PrimeiroSite/Imagens/Outros/Fundo.jpg');
 }
 
 .carousel-inner {
