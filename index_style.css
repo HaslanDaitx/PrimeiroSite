@@ -4,10 +4,23 @@ nav {
 }
 footer {
     background-color: #0e2582;
+    display: flex;
+    justify-content:center;
+    height: 80px;
+    align-items: center;
+}
+footer a{
+    color: white;
+    margin-right: 30px;
+}
+footer p{
+    color: white;
+    margin-top: 17px;
+    margin-right: 30px;
 }
 
 header {
-    background-image: url('/PrimeiroSite/Imagens/Outros/Header1.png');
+    background-image: url('./Imagens/Outros/Header1.png');
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -15,7 +28,7 @@ header {
 }
 
 body {
-    background-image: url('/PrimeiroSite/Imagens/Outros/Fundo.jpg');
+    background-image: url('./Imagens/Outros/Fundo.jpg');
 }
 
 .carousel-inner {

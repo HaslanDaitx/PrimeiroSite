@@ -4,12 +4,25 @@ nav{
 }
 footer {
     background-color: #0e2582;
+    display: flex;
+    justify-content:center;
+    height: 80px;
+    align-items: center;
+}
+footer a{
+    color: white;
+    margin-right: 30px;
+}
+footer p{
+    color: white;
+    margin-top: 17px;
+    margin-right: 30px;
 }
 header{
-    background-image: url('/PrimeiroSite/Imagens/Outros/Header1.png');
+    background-image: url('./Imagens/Outros/Header1.png');
 }
 body{
-    background-image: url('/PrimeiroSite/Imagens/Outros/Fundo.jpg');
+    background-image: url('./Imagens/Outros/Fundo.jpg');
 }
 main{
     margin-top: 255px;
@@ -24,7 +37,7 @@ main{
     color: #fff;
 }
 .modal-content{
-    background-image: url('/PrimeiroSite/Imagens/Outros/Fundo.jpg');
+    background-image: url('./Imagens/Outros/Fundo.jpg');
 }
 button{
     color: #0e2582;
